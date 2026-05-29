@@ -32,6 +32,26 @@ export const MOCK_BORDERS: Border[] = [
     download_count: 0,
     created_at: new Date().toISOString(),
   },
+  {
+    id: 'mock-rose',
+    name: 'Rose Red',
+    image_url: '/borders/rose.svg',
+    thumbnail_url: '/borders/rose.svg',
+    category: 'colorful',
+    tags: ['red', 'rose', 'bold'],
+    download_count: 0,
+    created_at: new Date().toISOString(),
+  },
+  {
+    id: 'mock-emerald',
+    name: 'Emerald',
+    image_url: '/borders/emerald.svg',
+    thumbnail_url: '/borders/emerald.svg',
+    category: 'classic',
+    tags: ['green', 'emerald', 'ornate'],
+    download_count: 0,
+    created_at: new Date().toISOString(),
+  },
 ]
 
 export async function fetchBorders(): Promise<Border[]> {

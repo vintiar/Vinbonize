@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+  <!-- Frame -->
+  <path fill-rule="evenodd" fill="url(#rg)" d="M0,0 H800 V800 H0 Z M84,84 H716 V716 H84 Z"/>
+  <!-- Inner white accent -->
+  <rect x="91" y="91" width="618" height="618" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <!-- Corner roses (simplified) -->
+  <circle cx="84" cy="84" r="22" fill="#fda4af" fill-opacity="0.5"/>
+  <circle cx="716" cy="84" r="22" fill="#fda4af" fill-opacity="0.5"/>
+  <circle cx="84" cy="716" r="22" fill="#fda4af" fill-opacity="0.5"/>
+  <circle cx="716" cy="716" r="22" fill="#fda4af" fill-opacity="0.5"/>
+  <circle cx="84" cy="84" r="10" fill="white" fill-opacity="0.7"/>
+  <circle cx="716" cy="84" r="10" fill="white" fill-opacity="0.7"/>
+  <circle cx="84" cy="716" r="10" fill="white" fill-opacity="0.7"/>
+  <circle cx="716" cy="716" r="10" fill="white" fill-opacity="0.7"/>
+  <!-- Top/bottom decorations -->
+  <ellipse cx="400" cy="42" rx="30" ry="12" fill="white" fill-opacity="0.25"/>
+  <ellipse cx="400" cy="758" rx="30" ry="12" fill="white" fill-opacity="0.25"/>
+  <ellipse cx="42" cy="400" rx="12" ry="30" fill="white" fill-opacity="0.25"/>
+  <ellipse cx="758" cy="400" rx="12" ry="30" fill="white" fill-opacity="0.25"/>
+  <!-- Dot trail -->
+  <circle cx="200" cy="42" r="3" fill="white" fill-opacity="0.5"/>
+  <circle cx="280" cy="42" r="3" fill="white" fill-opacity="0.5"/>
+  <circle cx="520" cy="42" r="3" fill="white" fill-opacity="0.5"/>
+  <circle cx="600" cy="42" r="3" fill="white" fill-opacity="0.5"/>
+  <circle cx="200" cy="758" r="3" fill="white" fill-opacity="0.5"/>
+  <circle cx="280" cy="758" r="3" fill="white" fill-opacity="0.5"/>
+  <circle cx="520" cy="758" r="3" fill="white" fill-opacity="0.5"/>
+  <circle cx="600" cy="758" r="3" fill="white" fill-opacity="0.5"/>
+  <!-- Label -->
+  <text x="400" y="56" text-anchor="middle" fill="white" fill-opacity="0.7" font-size="10" font-family="Georgia,serif" letter-spacing="6">VINBONIZE</text>
+  <text x="400" y="756" text-anchor="middle" fill="white" fill-opacity="0.7" font-size="10" font-family="Georgia,serif" letter-spacing="6">VINBONIZE</text>
+</svg>

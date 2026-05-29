@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="eg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <!-- Frame -->
+  <path fill-rule="evenodd" fill="url(#eg)" d="M0,0 H800 V800 H0 Z M80,80 H720 V720 H80 Z"/>
+  <!-- Double border lines -->
+  <rect x="86" y="86" width="628" height="628" fill="none" stroke="#34d399" stroke-width="1.5"/>
+  <rect x="92" y="92" width="616" height="616" fill="none" stroke="#6ee7b7" stroke-width="0.75"/>
+  <!-- Ornate corner diamonds -->
+  <polygon points="80,52 96,80 80,108 64,80" fill="#a7f3d0"/>
+  <polygon points="720,52 736,80 720,108 704,80" fill="#a7f3d0"/>
+  <polygon points="80,692 96,720 80,748 64,720" fill="#a7f3d0"/>
+  <polygon points="720,692 736,720 720,748 704,720" fill="#a7f3d0"/>
+  <polygon points="52,80 80,64 108,80 80,96" fill="#a7f3d0"/>
+  <polygon points="52,720 80,704 108,720 80,736" fill="#a7f3d0"/>
+  <polygon points="692,80 720,64 748,80 720,96" fill="#a7f3d0"/>
+  <polygon points="692,720 720,704 748,720 720,736" fill="#a7f3d0"/>
+  <!-- Mid-edge diamonds -->
+  <polygon points="400,22 412,40 400,58 388,40" fill="#a7f3d0"/>
+  <polygon points="400,742 412,760 400,778 388,760" fill="#a7f3d0"/>
+  <polygon points="22,400 40,388 58,400 40,412" fill="#a7f3d0"/>
+  <polygon points="742,400 760,388 778,400 760,412" fill="#a7f3d0"/>
+  <!-- Horizontal / vertical ticks -->
+  <line x1="130" y1="80" x2="370" y2="80" stroke="#34d399" stroke-width="1" opacity="0.6"/>
+  <line x1="430" y1="80" x2="670" y2="80" stroke="#34d399" stroke-width="1" opacity="0.6"/>
+  <line x1="130" y1="720" x2="370" y2="720" stroke="#34d399" stroke-width="1" opacity="0.6"/>
+  <line x1="430" y1="720" x2="670" y2="720" stroke="#34d399" stroke-width="1" opacity="0.6"/>
+  <line x1="80" y1="130" x2="80" y2="370" stroke="#34d399" stroke-width="1" opacity="0.6"/>
+  <line x1="80" y1="430" x2="80" y2="670" stroke="#34d399" stroke-width="1" opacity="0.6"/>
+  <line x1="720" y1="130" x2="720" y2="370" stroke="#34d399" stroke-width="1" opacity="0.6"/>
+  <line x1="720" y1="430" x2="720" y2="670" stroke="#34d399" stroke-width="1" opacity="0.6"/>
+</svg>
