@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <!-- Outer frame with evenodd transparent hole -->
+  <path fill-rule="evenodd" fill="#1a1a2e" d="M0,0 H800 V800 H0 Z M78,78 H722 V722 H78 Z"/>
+  <!-- Inner accent line -->
+  <path fill-rule="evenodd" fill="none" stroke="#d4af37" stroke-width="2" d="M85,85 H715 V715 H85 Z"/>
+  <!-- Corner circles -->
+  <circle cx="78" cy="78" r="14" fill="#d4af37"/>
+  <circle cx="722" cy="78" r="14" fill="#d4af37"/>
+  <circle cx="78" cy="722" r="14" fill="#d4af37"/>
+  <circle cx="722" cy="722" r="14" fill="#d4af37"/>
+  <!-- Mid-edge decorations -->
+  <circle cx="400" cy="39" r="7" fill="#d4af37"/>
+  <circle cx="400" cy="761" r="7" fill="#d4af37"/>
+  <circle cx="39" cy="400" r="7" fill="#d4af37"/>
+  <circle cx="761" cy="400" r="7" fill="#d4af37"/>
+  <!-- Header text -->
+  <text x="400" y="53" text-anchor="middle" fill="#d4af37" font-size="11" font-family="Georgia, serif" letter-spacing="5">VINBONIZE</text>
+  <text x="400" y="759" text-anchor="middle" fill="#d4af37" font-size="11" font-family="Georgia, serif" letter-spacing="5">VINBONIZE</text>
+  <!-- Horizontal rules -->
+  <line x1="92" y1="78" x2="386" y2="78" stroke="#d4af37" stroke-width="1"/>
+  <line x1="414" y1="78" x2="708" y2="78" stroke="#d4af37" stroke-width="1"/>
+  <line x1="92" y1="722" x2="386" y2="722" stroke="#d4af37" stroke-width="1"/>
+  <line x1="414" y1="722" x2="708" y2="722" stroke="#d4af37" stroke-width="1"/>
+</svg>
